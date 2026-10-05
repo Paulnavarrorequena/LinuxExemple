@@ -1,0 +1,12 @@
+LinuxExemple
+git config --global user.mail "p.navarrorequena@gmail.com"
+git config --global user.name "Paulnavarrorequena"
+
+
+echo "# LinuxExemple" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Paulnavarrorequena/LinuxExemple.git
+git push -u origin main
